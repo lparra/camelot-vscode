@@ -1,0 +1,46 @@
+{
+    "name": "camelot-vscode",
+    "displayName": "Camelot",
+    "description": "🛡️ A light/dark theme based on the Arthurian legends.",
+    "version": "0.0.1",
+    "publisher": "luisparra",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lparra/camelot-vscode"
+    },
+    "keywords": [
+        "Theme",
+        "Camelot",
+        "Light Theme",
+        "Dark Theme"
+    ],
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "galleryBanner": {
+        "color": "#061526",
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "camelot.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "Camelot Light Age",
+                "uiTheme": "vs",
+                "path": "./themes/camelot-light-age-color-theme.json"
+            },
+            {
+                "label": "Camelot Dark Age",
+                "uiTheme": "vs-dark",
+                "path": "./themes/camelot-dark-age-color-theme.json"
+            }
+        ]
+    }
+}
